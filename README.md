@@ -1,6 +1,6 @@
 # MachineLearnigExercises
 
-Machine Learning exercises.
+Machine Learning exercises on PyCharm
 
 - machineLearnig.py
 
