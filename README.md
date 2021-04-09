@@ -32,13 +32,33 @@ You are given a feature matrix and a single datapoint to predict. Your job will 
 
 Input Format
 First line: Number of data points in the feature matrix (n)
+
+
+- modekComparison.py
+
+compare three models
+
+
+- matrixWelcome.py
+
+Welcome to the Matrix
+
+
+Calculating Evaluation Metrics using the Confusion Matrix.
+
+Task
+You will be given the values of the confusion matrix (true positives, false positives, false negatives, and true negatives). Your job is to compute the accuracy, precision, recall and f1 score and print the values rounded to 4 decimal places. To round, you can use round(x, 4).
+
+Input Format
+The values of tp, fp, fn, tn, in that order separated by spaces
+
+Output Format
+Each value on its own line, rounded to 4 decimal places, in this order:
+accuracy, precision, recall, f1 score
+
 Next n lines: Values of the row in the feature matrix, separated by spaces
 Next line: Target values separated by spaces
 Final line: Values (separated by spaces) of a single datapoint without a target value
 
 Output Format
 Either 1 or 0
-
-- modekComparison.py
-
-compare three models
