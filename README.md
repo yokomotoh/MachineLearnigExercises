@@ -33,6 +33,13 @@ You are given a feature matrix and a single datapoint to predict. Your job will 
 Input Format
 First line: Number of data points in the feature matrix (n)
 
+Next n lines: Values of the row in the feature matrix, separated by spaces
+Next line: Target values separated by spaces
+Final line: Values (separated by spaces) of a single datapoint without a target value
+
+Output Format
+Either 1 or 0
+
 
 - modekComparison.py
 
@@ -53,9 +60,4 @@ Output Format
 Each value on its own line, rounded to 4 decimal places, in this order:
 accuracy, precision, recall, f1 score
 
-Next n lines: Values of the row in the feature matrix, separated by spaces
-Next line: Target values separated by spaces
-Final line: Values (separated by spaces) of a single datapoint without a target value
 
-Output Format
-Either 1 or 0
