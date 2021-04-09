@@ -41,9 +41,6 @@ compare three models
 
 - matrixWelcome.py
 
-Welcome to the Matrix
-
-
 Calculating Evaluation Metrics using the Confusion Matrix.
 
 Task
