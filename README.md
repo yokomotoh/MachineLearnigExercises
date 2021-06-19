@@ -39,6 +39,6 @@ Final line: Values (separated by spaces) of a single datapoint without a target 
 Output Format
 Either 1 or 0
 
-- modekComparison.py
+- modelComparison.py
 
 compare three models
